@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+        .C-container{
+            max-width: 800px;
+            gap: 20px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+      .card {
+        width: calc(33.33% - 14px);
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+      }
+      .cimg {
+        height: 225px;
+        overflow: hidden;
+      }
+      .cimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      .card:hover .cimg img {
+        transform: scale(1.1);
+      }
+      .c-content {
+        padding: 15px;
+      }
+      .c_title {
+        font-size: 1.8em;
+        margin: 0 0 10px;
+        color: #222222;
+      }
+      .price {
+        font-size: 1.5em;
+        color: #222222;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .rate {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-weight: bold;
+      }
+      .rtxt {
+        margin-left: 5px;
+      }
+      .c-desc {
+        color: #777785;
+        font-size: 10px;
+        line-height: 2px;
+      }
+      .sml { 
+        margin-top: 5%;
+        margin-left: 71%; 
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        color: #e44780;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .Banner-2 {
+    margin-top: 5%;
+}
+
+
+    .Banner2-container {
+    margin: 0 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+  .B2-left {
+    width: 50%;
+    display: flex;
+    margin-left: 7rem ;
+}
+
+.B2-right h1 {
+    font-size: 35px;
+    color: #0a0826;
+    font-weight: bold;
+}
+
+.B2-right p {
+    font-size: 1.5rem;
+}
+
+.B2-right  button {
+    /* margin: 3%; */
+    padding: 15px 25px;
+   background-color: #e02b6c; 
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer; 
+}
+.B2-right {
+  width: 70%;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="C-container">
+      <div class="card">
+        <div class="cimg">
+          <img src="images/tripod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$50.48</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/mic.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/airpod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cimg">
+          <img src="images/tripod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$50.48</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/mic.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/airpod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>      <div class="card">
+        <div class="cimg">
+          <img src="images/tripod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$50.48</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/mic.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cimg">
+          <img src="images/airpod.png" alt="Denim Jeans" />
+        </div>
+        <div class="c-content">
+          <h3 class="c_title">Flex Tripod</h3>
+          <p class="price">$120.25</p>
+          <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <p class="rtxt">4.99</p>
+          </div>
+          <p class="c-desc">Wordwide shifting</p>
+          <p class="c-desc">available</p>
+          <p class="c-desc">Buyers protection possible!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- see more -->
+         <button class="sml"> See more <i class="fa-solid fa-arrow-right"></i> </button>
+      
+        <section>
+          <div class="Banner-2">
+            <div class="Banner2-container">
+              <div class="B2-left">
+                <img src="images/gear.png" alt="gear">
+              </div>
+              <div class="B2-right">
+                <h1> Featured products at one place</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, ipsum vel bibendum semper, diam dolor posuere arcu, vel eleifend felis turpis vitae est. Nulla facilisi. Sed et velit vel lectus fringilla elementum.</p>
+
+                <button>Join now <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+
+        <section class="footer">
+          <h1> Influencer products</h1>
+          <p>Copyright &copy 2020  influencer products</p>
+          <p> All rights reserved</p>
+          
+          <div class="sc-icon">
+          <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-regular fa-globe"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+          </ul>
+        </div>
+        </section>
+
+
+  </body>
+</html>
